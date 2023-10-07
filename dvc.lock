@@ -5,7 +5,7 @@ stages:
     deps:
     - path: configs/train_config.yaml
       hash: md5
-      md5: f7373b3daea333e5ac8cbfd088330d48
+      md5: 287538a97060869fe0c91e2f75e959ef
       size: 1152
     - path: data/raw/
       hash: md5
@@ -15,9 +15,9 @@ stages:
     outs:
     - path: models/catclf.pkl
       hash: md5
-      md5: 16ea31fca70a28344ea4b933131f46fa
-      size: 36606
+      md5: 0560a4c180cdc58e20b706f8221398e3
+      size: 19390
     - path: models/metrics.json
       hash: md5
-      md5: af230743743bb2b0f176f63c08977ccf
-      size: 165
+      md5: 921606f644e2856c4a922916030080d7
+      size: 168
