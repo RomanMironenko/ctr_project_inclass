@@ -33,13 +33,13 @@ if __name__ == "__main__":
 
         response = requests.post(
             # "http://213.219.215.18:8000/predict/",
-            "http://localhost:5000/predict/",
+            # "http://127.0.0.1:8000/predict/",
+            "http://localhost:8000/predict/",
             # "http://127.0.0.1:8000/predict/",
             json={"data": [request_data], "features": list(data.columns)},
         )
-        print(response)
 
         logger.info(f"check response.status_code: {response.status_code}")
-        # logger.info(f"check response.json(): {response.json()}\n")
+        logger.info(f"check response.json(): {response.json()}\n")
 
         sleep(1)
