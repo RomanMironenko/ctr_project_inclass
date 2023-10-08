@@ -112,4 +112,4 @@ def load_models(training_pipeline_params: TrainingPipelineParams):
 
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=os.getenv("PORT", 8000))
+    uvicorn.run("app:app", host="0.0.0.0", port=os.getenv("PORT", 8001))
